@@ -1,0 +1,250 @@
+link CSS e Javascript
+<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+
+
+/* Carousel + Album */
+
+/* caroucel */
+.carousel{
+  background-color: #c2e2f1;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+
+.gallery {
+  background: #c2e2f1;
+}
+
+.gallery-cell{ /* adicionando borda */
+  border-radius: 10px;
+}
+
+.gallery-cell a img{ /* adicionando borda */
+  border-radius: 10px;
+}
+
+.gallery-cell{
+  width: 66%;
+  height: 400px;
+  margin-right: -200px;
+
+  counter-increment: gallery-cell;
+}
+
+.gallery-cell{
+  width: 66%;
+  height: 400px;
+  margin-right: -200px;
+  
+  counter-increment: gallery-cell;
+}
+
+.gallery-cell{
+  width: 66%;
+  height: 400px;
+  margin-right: -200px;
+  
+  counter-increment: gallery-cell;
+}
+
+.gallery-cell{
+  width: 66%;
+  height: 400px;
+  margin-right: -200px;
+  
+  counter-increment: gallery-cell;
+}
+
+.gallery-cell{
+  width: 66%;
+  height: 400px;
+  margin-right: -200px;
+  
+  counter-increment: gallery-cell;
+}
+/* Fim carousel */
+
+
+
+/* Cards de vendas */
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 350px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    background-color: #fff;
+  }
+  
+
+  
+  .card h1{
+    padding-top: 10px;
+    height: 80px;
+    
+  }
+  
+  .card h1{
+    font-size: 15px;
+  }
+  
+  
+  .prince-2{
+    color: grey;
+    font-size: 15px;
+    text-decoration:line-through;
+    padding-bottom: 10px;
+  }
+  
+  
+  .price {
+    font-weight: bold;
+    color: #0e84c5;
+    font-size: 22px;
+    padding-bottom: 10px;
+  }
+  
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #08527b;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    padding-bottom: 10px;
+  }
+  
+  
+  .card button:hover {
+    opacity: 0.7;
+    transition: 0.5s;
+  }
+
+
+
+
+HTML
+<div class="gallery js-flickity"
+      data-flickity-options='{ "wrapAround": true }'>
+
+      <div class="gallery-cell">
+        <div class="card">
+            <img src="produtos/comedouro.jpg" alt="" style="width:50%">
+            <h1>Simparic 5 a 10kg: Antipulgas e Carrapatos para Cães</h1>
+            <p class="prince-2">De: R$182,00</p>
+            <p class="price">Por: R$100,00</p>
+            <p><a href="#"><button>Comprar</button></a></p>
+        </div>
+
+      </a></div>
+      <div class="gallery-cell">
+        <div class="card">
+            <img src="produtos/comedouro.jpg" alt="" style="width:50%">
+            <h1>Simparic 5 a 10kg: Antipulgas e Carrapatos para Cães</h1>
+            <p class="prince-2">De: R$182,00</p>
+            <p class="price">Por: R$100,00</p>
+            <p><a href="#"><button>Comprar</button></a></p>
+        </div>
+
+      </a></div>
+      <div class="gallery-cell">
+        <div class="card">
+            <img src="produtos/comedouro.jpg" alt="" style="width:50%">
+            <h1>Simparic 5 a 10kg: Antipulgas e Carrapatos para Cães</h1>
+            <p class="prince-2">De: R$182,00</p>
+            <p class="price">Por: R$100,00</p>
+            <p><a href="#"><button>Comprar</button></a></p>
+        </div>
+      </a></div>
+
+      <div class="gallery-cell">
+        <div class="card">
+            <img src="produtos/comedouro.jpg" alt="" style="width:50%">
+            <h1>Simparic 5 a 10kg: Antipulgas e Carrapatos para Cães</h1>
+            <p class="prince-2">De: R$182,00</p>
+            <p class="price">Por: R$100,00</p>
+            <p><a href="#"><button>Comprar</button></a></p>
+        </div>
+      </a></div>
+
+      <div class="gallery-cell">
+        <div class="card">
+            <img src="produtos/comedouro.jpg" alt="" style="width:50%">
+            <h1>Simparic 5 a 10kg: Antipulgas e Carrapatos para Cães</h1>
+            <p class="prince-2">De: R$182,00</p>
+            <p class="price">Por: R$100,00</p>
+            <p><a href="#"><button>Comprar</button></a></p>
+        </div>
+      </a></div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CSS
+
+  .card h1{
+    font-size: 15px;
+  }
+  
+  
+  .prince-2{
+    color: grey;
+    font-size: 15px;
+    text-decoration:line-through;
+    padding-bottom: 10px;
+  }
+  
+  
+  .price {
+    font-weight: bold;
+    color: #0e84c5;
+    font-size: 22px;
+    padding-bottom: 10px;
+  }
+  
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #08527b;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    padding-bottom: 10px;
+  }
+  
+  
+  .card button:hover {
+    opacity: 0.7;
+    transition: 0.5s;
+  }
+
+  /* Fim Cards de vendas */
+
+/* FIM Carousel + Album */
